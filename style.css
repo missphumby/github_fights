@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+  font-weight: 400;
+}
+
+/* #players{
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+#player-name {
+  width: 700px;
+  border-radius: 6px;
+  border: solid 1px gainsboro;
+  height: 30px;
+}
+#continue {
+  width: 200px;
+  background-color: green;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.player-two {
+  display: none;
+}
+.player-one {
+  display: none;
+}
+#container {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+#container2 {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+.confirmit {
+  display: none;
+  text-align: center;
+}
+.plays {
+  font-size: 30px;
+  text-align: center;
+}
+
+#containerGroup {
+  display: none;
+  justify-content: space-between;
+}
+
+#containerGroup > div {
+  width: 48%;
+}
+
+#containerGroup > div:first-child {
+  margin-right: 4%;
+}
+
+#containerGroup img{
+    width: 100%;
+}
+
+#playersgroup {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid gainsboro;
+}
+#buttongroup{
+    display: none;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.loading{
+    display: none;
+}
+.showItem{
+    display: block;
+}
+.initiatebattle, .reselectplayer{
+    padding: 9px;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    color: white;
+    font-size: 18px;
+
+}
+.scores{
+    font-size: 30px;
+    text-align: center;
+}
+
+#scoreOne, #scoreTwo{
+    display: none;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.initiatebattle{
+    background-color: green;
+}
+.reselectplayer{
+    background-color: skyblue;
+    margin-top: 5px;
+}
